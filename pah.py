@@ -1,10 +1,11 @@
-from multiprocessing.connection import wait
 import modules.random_roll as random_roll
 import modules.user_interaction as usr_interaction
 
 
 waiting_for_input = True
-print('\nWELCOME TO THE\nPYTHON AGAINST HOOMAAAANS\nPlease dont be offended as this is just some random string concatenator? Please.')
+print('\nWELCOME TO THE\nPYTHON AGAINST HOOMAAAANS\n'
+      'Please dont be offended as this is just some random string concatenator?'
+      ' Please.')
 while waiting_for_input:
     print('\n')
     print('Choose what to do(enter number or "q").')
